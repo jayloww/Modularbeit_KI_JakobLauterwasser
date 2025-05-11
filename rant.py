@@ -12,3 +12,4 @@ class RandomAnt(Ant):
                 self.dropFood()
         elif(self.senseFood()[0]):
             self.takeFood()
+        self.move()
